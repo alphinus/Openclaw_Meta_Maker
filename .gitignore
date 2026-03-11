@@ -5,7 +5,7 @@
 .gsd/worktrees/
 .gsd/auto.lock
 .gsd/metrics.json
-.gsd/STATE.md
+# .gsd/STATE.md
 .DS_Store
 Thumbs.db
 *.swp
