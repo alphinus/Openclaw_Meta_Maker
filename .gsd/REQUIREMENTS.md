@@ -56,7 +56,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S02 + M001/S03
 - Supporting slices: keine
-- Validation: unmapped
+- Validation: S02 — alle 16 identity/*.md mit korrekten Star Trek Character-Namen existieren (26/26 Existenz-Checks + 112/112 Identity-Sektions-Checks in verify-s02.sh); vollständige Validierung nach S03
 - Notes: Zuordnung ist festgelegt (siehe M001-CONTEXT.md)
 
 ### R006 — /elvis-* Naming Convention
@@ -89,8 +89,8 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S02
 - Supporting slices: keine
-- Validation: unmapped
-- Notes: Vollständig ausgearbeitet mit Purpose, Core Values, Operating Principles, Success Metrics
+- Validation: S02 — alle 10 soul/*.md mit vollständigen 6 Sektionen (60/60 Soul-Sektions-Checks in verify-s02.sh); grep -c "^## Geeignet für" soul/*.md = 10 bestätigt Agent-Mapping-Vollständigkeit
+- Notes: Vollständig ausgearbeitet mit Purpose, Core Values, Operating Principles, Success Metrics und Soul-zu-Agenten-Mapping
 
 ### R009 — Command System
 - Class: primary-user-loop
@@ -170,10 +170,10 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 | R002 | quality-attribute | active | M001/S01 | alle Skill-Slices | S01 — verify-s01.sh 54/54 Sektions-Checks |
 | R003 | quality-attribute | active | M001/S04 | S05, S06, S07 | S01 (Benchmark) — volle Validierung in S04 |
 | R004 | constraint | active | M001/S07 | S08 | S01 (Pattern) — volle Validierung in S07 |
-| R005 | differentiator | active | M001/S02+S03 | none | unmapped |
+| R005 | differentiator | active | M001/S02+S03 | none | S02 — 16/16 identity/*.md + 112/112 Sektions-Checks; vollständig nach S03 |
 | R006 | convention | active | M001/S01 | alle | S01 — verify-s01.sh 6/6 Prefix-Checks |
 | R007 | architecture | active | M001/S01 | alle | S01 — verify-s01.sh 11/11 Verzeichnis-Checks |
-| R008 | core-capability | active | M001/S02 | none | unmapped |
+| R008 | core-capability | active | M001/S02 | none | S02 — 10/10 soul/*.md + 60/60 Sektions-Checks + 10/10 Geeignet-für-Sektionen |
 | R009 | primary-user-loop | active | M001/S08 | none | unmapped |
 | R010 | operability | active | M001/S01 | none | S01 — verify-s01.sh 4/4 Template-Checks |
 | R011 | constraint | active | M001/S01 | alle | S01 — manuell verifiziert |
@@ -185,6 +185,6 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 
 - Active requirements: 11
 - Mapped to slices: 11
-- Validated: 5 (R002, R006, R007, R010, R011 — vollständig in S01 bewiesen)
-- Partially proven: 2 (R003 Benchmark etabliert, R004 Pattern etabliert — volle Validierung in S04/S07)
+- Validated: 6 (R002, R006, R007, R008, R010, R011 — R002/R006/R007/R010/R011 in S01, R008 in S02)
+- Partially proven: 3 (R003 Benchmark etabliert, R004 Pattern etabliert, R005 Identity-Layer bewiesen — volle Validierung in S04/S07/S03)
 - Unmapped active requirements: 0

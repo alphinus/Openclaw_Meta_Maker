@@ -52,7 +52,7 @@
 - [x] **S01: Foundation — Templates, Format und Ordnerstruktur** `risk:high` `depends:[]`
   > After this: Das vollständige Skill-Format ist definiert, alle Templates existieren, die Ordnerstruktur ist angelegt, ein Beispiel-Skill pro Kategorie zeigt den Standard.
 
-- [ ] **S02: Souls und Identities** `risk:low` `depends:[S01]`
+- [x] **S02: Souls und Identities** `risk:low` `depends:[S01]`
   > After this: 10 vollständige Souls und 16 Star Trek Identities existieren — die philosophische und persönliche Grundlage aller Agenten ist fertig.
 
 - [ ] **S03: Agent Layer — 16 Star Trek Agenten** `risk:low` `depends:[S02]`
