@@ -55,7 +55,7 @@
 - [x] **S02: Souls und Identities** `risk:low` `depends:[S01]`
   > After this: 10 vollständige Souls und 16 Star Trek Identities existieren — die philosophische und persönliche Grundlage aller Agenten ist fertig.
 
-- [ ] **S03: Agent Layer — 16 Star Trek Agenten** `risk:low` `depends:[S02]`
+- [x] **S03: Agent Layer — 16 Star Trek Agenten** `risk:low` `depends:[S02]`
   > After this: Alle 16 Agenten (Kirk bis Uhura) sind vollständig definiert mit Mission, Capabilities, Operating Loop und Constraints.
 
 - [ ] **S04: Growth + Content Skills (~30 Skills)** `risk:medium` `depends:[S01]`

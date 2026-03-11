@@ -45,7 +45,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S07
 - Supporting slices: M001/S08
-- Validation: unmapped
+- Validation: S03 (Agent-Ebene) — alle 5 autonomen Agenten (Picard, Q, Borg, Troi, Uhura) haben alle 4 Safeguard-Marker mit konkreten Zahlen (20/20 Safeguard-Checks in verify-s03.sh); vollständige Validierung auf Skill-Ebene in S07
 - Notes: Stop-Bedingungen sind im Skill als explizite Constraints definiert
 
 ### R005 — Star Trek Agenten-Namen
@@ -56,7 +56,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S02 + M001/S03
 - Supporting slices: keine
-- Validation: S02 — alle 16 identity/*.md mit korrekten Star Trek Character-Namen existieren (26/26 Existenz-Checks + 112/112 Identity-Sektions-Checks in verify-s02.sh); vollständige Validierung nach S03
+- Validation: S03 — alle 16 agent/*.md mit korrekten Star Trek Namen und 7 vollständigen Sektionen; 148/148 Checks grün (verify-s03.sh Exit-Code 0); 5/5 autonome Agenten mit D007-Safeguards
 - Notes: Zuordnung ist festgelegt (siehe M001-CONTEXT.md)
 
 ### R006 — /elvis-* Naming Convention
@@ -169,8 +169,8 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 | R001 | core-capability | active | M001/S04+S05+S06 | S01, S07 | unmapped |
 | R002 | quality-attribute | active | M001/S01 | alle Skill-Slices | S01 — verify-s01.sh 54/54 Sektions-Checks |
 | R003 | quality-attribute | active | M001/S04 | S05, S06, S07 | S01 (Benchmark) — volle Validierung in S04 |
-| R004 | constraint | active | M001/S07 | S08 | S01 (Pattern) — volle Validierung in S07 |
-| R005 | differentiator | active | M001/S02+S03 | none | S02 — 16/16 identity/*.md + 112/112 Sektions-Checks; vollständig nach S03 |
+| R004 | constraint | active | M001/S07 | S08 | S03 (Agent-Ebene) — 20/20 Safeguard-Checks; vollständige Skill-Ebene in S07 |
+| R005 | differentiator | active | M001/S02+S03 | none | S03 — 16/16 agent/*.md + 148/148 Checks grün (verify-s03.sh Exit-Code 0) |
 | R006 | convention | active | M001/S01 | alle | S01 — verify-s01.sh 6/6 Prefix-Checks |
 | R007 | architecture | active | M001/S01 | alle | S01 — verify-s01.sh 11/11 Verzeichnis-Checks |
 | R008 | core-capability | active | M001/S02 | none | S02 — 10/10 soul/*.md + 60/60 Sektions-Checks + 10/10 Geeignet-für-Sektionen |
@@ -185,6 +185,6 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 
 - Active requirements: 11
 - Mapped to slices: 11
-- Validated: 6 (R002, R006, R007, R008, R010, R011 — R002/R006/R007/R010/R011 in S01, R008 in S02)
-- Partially proven: 3 (R003 Benchmark etabliert, R004 Pattern etabliert, R005 Identity-Layer bewiesen — volle Validierung in S04/S07/S03)
+- Validated: 7 (R002, R005, R006, R007, R008, R010, R011 — R002/R006/R007/R010/R011 in S01, R008 in S02, R005 in S03)
+- Partially proven: 2 (R003 Benchmark etabliert — volle Validierung in S04; R004 Agent-Ebene bewiesen — Skill-Ebene in S07)
 - Unmapped active requirements: 0

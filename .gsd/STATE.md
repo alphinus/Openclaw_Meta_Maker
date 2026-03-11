@@ -1,44 +1,37 @@
 # GSD State
 
 **Active Milestone:** M001 — OpenClaw Meta Maker
-**Active Slice:** S03 — Agent Layer (bereit zum Start)
-**Active Task:** —
-**Phase:** S02 vollständig abgeschlossen — S03 als nächster Slice
-**Slice Branch:** gsd/M001/S02 (squash-merge ausstehend)
+**Active Slice:** S04 — Growth + Content Skills (~30 Skills) (planned, ready to execute)
+**Active Task:** — (S03 vollständig abgeschlossen)
+**Phase:** S03 abgeschlossen — alle 148 Checks grün, Exit-Code 0; bereit für S04
+**Slice Branch:** gsd/M001/S03 (abgeschlossen)
 **Active Workspace:** C:\Dev\Openclaw_Meta_Maker
-**Next Action:** S03 starten — 16 Star Trek Agent-Dateien (agent/*.md) schreiben
+**Next Action:** S04 starten — ~15 Growth Skills + ~15 Content Skills; konsumiert templates/skill-template.md + 6 Benchmark-Skills
 **Last Updated:** 2026-03-11
-**Requirements Status:** 11 active · 6 validated (R002, R006, R007, R008, R010, R011) · 3 partially proven (R003, R004, R005) · 1 deferred · 2 out of scope
+**Requirements Status:** 11 active · 7 validated (R002, R005, R006, R007, R008, R010, R011) · 2 partially proven (R003, R004) · 1 deferred · 2 out of scope
 
 ## Completed Slices
 
 - [x] S01 — Foundation: Templates, Format und Ordnerstruktur (2026-03-11)
 - [x] S02 — Souls und Identities (2026-03-11)
+- [x] S03 — Agent Layer — 16 Agenten, 148/148 Checks grün (2026-03-11)
 
-## S02 Ergebnis
+## S03 Ergebnis
 
-- 10 soul/*.md — je 6 Sektionen, klare Philosophie-Abgrenzungen, Agent-Mapping in "## Geeignet für"
-- 16 identity/*.md — je 7 Sektionen, authentische Star Trek Charakter-Profile, kein operativer Inhalt
-- verify-s02.sh — Exit-Code 0, alle 198 Checks grün
+- 16 agent/*.md — je 7 Pflichtfelder (Name, Mission, Capabilities, Operating Loop, Constraints, Primärer Soul, Primäre Skills)
+- 5 autonome Agenten (picard, q, borg, troi, uhura) mit D007-konformen Safeguards: **Max-Limit:**, **Approval-Gate:**, **Stop-Bedingung:**, **Rollback-Hinweis:**
+- verify-s03.sh — Exit-Code 0, alle 148 Checks grün
+- R005 vollständig validiert; R004 auf Agent-Ebene bewiesen
 
-## S03 Inputs (bereit)
+## S04 Voraussetzungen
 
-- soul/*.md — Soul-zu-Agenten-Mapping über "## Geeignet für"-Sektionen
-- identity/*.md — Persönlichkeits-Grundlage für alle 16 Agenten
-- templates/agent-template.md — verbindliches Format für agent/*.md Dateien
+- templates/skill-template.md (aus S01) ✓
+- 6 Benchmark-Skills als Qualitäts-Referenz (aus S01) ✓
+- Soul-Zuweisungen in agent/*.md zeigen welche Growth/Content-Skills benötigt werden ✓
 
-## Verify S02 Status
+## Forward References aus agent/*.md (S04–S06 müssen diese liefern)
 
-```
-bash scripts/verify-s02.sh → Exit-Code 0 (198/198 Checks grün)
-```
-
-## Key Decisions (recent)
-
-- D016: Soul-Abgrenzungs-Pflicht (researcher vs. analyst, builder vs. creator — explizite Kernfrage in Philosophie)
-- D017: Borg Identity als Singular-Sprecher mit Kollektiv-Weltbild
-- D018: minimalist als Lens-Soul ohne primären Agenten
-
-## Blockers
-
-- (keine)
+Growth/Content: /elvis-x-growth, /elvis-growth-loop, /elvis-growth-audit, /elvis-audience-builder, /elvis-x-hook-writer, /elvis-x-content, /elvis-copywriting, /elvis-content-calendar
+Research/Strategy: /elvis-market-scan, /elvis-ai-research, /elvis-data-analysis, /elvis-fact-check, /elvis-execution-plan, /elvis-decision-framework, /elvis-rapid-response, /elvis-rapid-execution, /elvis-direct-action, /elvis-growth-strategy
+Automation/Analysis: /elvis-workflow-builder, /elvis-automation, /elvis-system-monitor, /elvis-integration, /elvis-system-builder, /elvis-process-design, /elvis-infrastructure, /elvis-performance-tracker, /elvis-reporting, /elvis-data-audit, /elvis-task-router, /elvis-execution-tracker, /elvis-system-audit, /elvis-security-check, /elvis-logic-validator
+Meta: /elvis-agent-generator, /elvis-skill-expander, /elvis-system-analyzer, /elvis-library-manager, /elvis-command-router
