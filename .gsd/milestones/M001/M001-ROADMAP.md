@@ -58,7 +58,7 @@
 - [x] **S03: Agent Layer — 16 Star Trek Agenten** `risk:low` `depends:[S02]`
   > After this: Alle 16 Agenten (Kirk bis Uhura) sind vollständig definiert mit Mission, Capabilities, Operating Loop und Constraints.
 
-- [ ] **S04: Growth + Content Skills (~30 Skills)** `risk:medium` `depends:[S01]`
+- [x] **S04: Growth + Content Skills (~30 Skills)** `risk:medium` `depends:[S01]`
   > After this: ~15 Growth Skills und ~15 Content Skills sind vollständig ausgearbeitet — der größte Anwendungsbereich (X/Social Media) ist abgedeckt.
 
 - [ ] **S05: Research + Strategy Skills (~30 Skills)** `risk:medium` `depends:[S01]`
