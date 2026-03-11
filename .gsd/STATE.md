@@ -1,22 +1,26 @@
 # GSD State
 
 **Active Milestone:** M001 — OpenClaw Meta Maker
-**Active Slice:** S01 — Foundation: Templates, Format und Ordnerstruktur
-**Active Task:** — (noch nicht begonnen)
-**Phase:** Planning abgeschlossen — bereit zur Ausführung
-**Slice Branch:** gsd/M001/S01
+**Active Slice:** S02 — Souls und Identities (noch nicht gestartet)
+**Active Task:** — (S02 noch nicht gestartet)
+**Phase:** S01 abgeschlossen ✅ — S02 bereit zum Start
+**Slice Branch:** gsd/M001/S01 (S02-Branch: gsd/M001/S02)
 **Active Workspace:** C:\Dev\Openclaw_Meta_Maker
-**Next Action:** S01 starten — Ordnerstruktur anlegen, Templates schreiben, Beispiel-Skills erstellen
+**Next Action:** S02 starten — 10 Souls + 16 Star Trek Identities erstellen (soul-template.md + identity-template.md verfügbar)
 **Last Updated:** 2026-03-11
-**Requirements Status:** 11 active · 0 validated · 1 deferred · 2 out of scope
+**Requirements Status:** 11 active · 5 validated (R002, R006, R007, R010, R011) · 2 partially proven (R003, R004) · 1 deferred · 2 out of scope
+
+## Completed Slices
+
+- [x] S01 — Foundation: Templates, Format und Ordnerstruktur (2026-03-11)
 
 ## Recent Decisions
 
-- D001: /elvis-* Prefix für alle Skills
-- D004: Star Trek Namen für alle 16 Agenten (Kirk = Haupt-Agent, Picard = Orchestrator, etc.)
-- D005: Erweitertes 9-Sektionen Skill-Format mit Constraints, Verification, Dependencies
-- D007: Safeguards für alle autonomen Agenten (Borg, Q, Picard, Troi, Uhura)
-- D009: Pixel Agents komplett weggelassen
+- D011: Zweistufige Template-Struktur (Anweisungs-Block + Beispiel)
+- D012: Identity = WER (Persönlichkeit) vs. Agent = WAS (Betrieb) — explizit in Templates
+- D013: Safeguards als **Fett-Text:** Bullet-Points in ## Einschränkungen
+- D014: Fehlerzähler als Exit-Code in verify-Skripten
+- D015: verify-Skript ist verbindliche Autorität für Dateinamen (Vorrang vor Plan-Dateien)
 
 ## Blockers
 

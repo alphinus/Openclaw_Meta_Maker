@@ -49,7 +49,7 @@
 
 ## Slices
 
-- [ ] **S01: Foundation — Templates, Format und Ordnerstruktur** `risk:high` `depends:[]`
+- [x] **S01: Foundation — Templates, Format und Ordnerstruktur** `risk:high` `depends:[]`
   > After this: Das vollständige Skill-Format ist definiert, alle Templates existieren, die Ordnerstruktur ist angelegt, ein Beispiel-Skill pro Kategorie zeigt den Standard.
 
 - [ ] **S02: Souls und Identities** `risk:low` `depends:[S01]`

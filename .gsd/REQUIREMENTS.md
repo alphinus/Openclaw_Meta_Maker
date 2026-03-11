@@ -23,8 +23,8 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S01
 - Supporting slices: alle Skill-Slices
-- Validation: unmapped
-- Notes: Format wird in S01 festgelegt und ist für alle nachfolgenden Skills bindend
+- Validation: S01 — templates/skill-template.md und alle 6 Benchmark-Skills enthalten alle 9 Sektionen (54/54 Checks in verify-s01.sh)
+- Notes: Format in S01 festgelegt und validiert; bindend für alle nachfolgenden Skills in S04–S07
 
 ### R003 — Konkrete, ausführbare Execution Steps
 - Class: quality-attribute
@@ -67,7 +67,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S01
 - Supporting slices: alle Skill-Slices
-- Validation: unmapped
+- Validation: S01 — alle 6 Benchmark-Skills enthalten /elvis-* im ## Name Block (6/6 Checks in verify-s01.sh)
 - Notes: Gilt auch für Meta-Agent Skills und Command Skills
 
 ### R007 — Integrierte Ordnerstruktur
@@ -78,7 +78,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S01
 - Supporting slices: alle
-- Validation: unmapped
+- Validation: S01 — alle 11 Verzeichnisse existieren (11/11 Checks in verify-s01.sh); Hinweis: meta-agent/ wurde zu meta/ vereinfacht
 - Notes: Keine getrennten Top-Level-Ordner wie in der ursprünglichen Spec
 
 ### R008 — 10 Souls
@@ -111,7 +111,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S01
 - Supporting slices: keine
-- Validation: unmapped
+- Validation: S01 — alle 4 Template-Dateien existieren (4/4 Checks in verify-s01.sh); jede mit Anweisungs-Block + vollständigem Beispiel
 - Notes: Templates spiegeln das finale, erweiterte Skill-Format wider
 
 ### R011 — Deutsch als Inhaltssprache
@@ -122,7 +122,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S01
 - Supporting slices: alle
-- Validation: unmapped
+- Validation: S01 — alle 6 Benchmark-Skills und alle 4 Templates auf Deutsch verfasst (manuell verifiziert)
 - Notes: Dateinamen und Verzeichnisse bleiben englisch für Kompatibilität
 
 ## Deferred
@@ -167,16 +167,16 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 | ID | Class | Status | Primary owner | Supporting | Proof |
 |---|---|---|---|---|---|
 | R001 | core-capability | active | M001/S04+S05+S06 | S01, S07 | unmapped |
-| R002 | quality-attribute | active | M001/S01 | alle Skill-Slices | unmapped |
-| R003 | quality-attribute | active | M001/S04 | S05, S06, S07 | unmapped |
-| R004 | constraint | active | M001/S07 | S08 | unmapped |
+| R002 | quality-attribute | active | M001/S01 | alle Skill-Slices | S01 — verify-s01.sh 54/54 Sektions-Checks |
+| R003 | quality-attribute | active | M001/S04 | S05, S06, S07 | S01 (Benchmark) — volle Validierung in S04 |
+| R004 | constraint | active | M001/S07 | S08 | S01 (Pattern) — volle Validierung in S07 |
 | R005 | differentiator | active | M001/S02+S03 | none | unmapped |
-| R006 | convention | active | M001/S01 | alle | unmapped |
-| R007 | architecture | active | M001/S01 | alle | unmapped |
+| R006 | convention | active | M001/S01 | alle | S01 — verify-s01.sh 6/6 Prefix-Checks |
+| R007 | architecture | active | M001/S01 | alle | S01 — verify-s01.sh 11/11 Verzeichnis-Checks |
 | R008 | core-capability | active | M001/S02 | none | unmapped |
 | R009 | primary-user-loop | active | M001/S08 | none | unmapped |
-| R010 | operability | active | M001/S01 | none | unmapped |
-| R011 | constraint | active | M001/S01 | alle | unmapped |
+| R010 | operability | active | M001/S01 | none | S01 — verify-s01.sh 4/4 Template-Checks |
+| R011 | constraint | active | M001/S01 | alle | S01 — manuell verifiziert |
 | R020 | differentiator | deferred | none | none | unmapped |
 | R030 | anti-feature | out-of-scope | none | none | n/a |
 | R031 | anti-feature | out-of-scope | none | none | n/a |
@@ -185,5 +185,6 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 
 - Active requirements: 11
 - Mapped to slices: 11
-- Validated: 0
+- Validated: 5 (R002, R006, R007, R010, R011 — vollständig in S01 bewiesen)
+- Partially proven: 2 (R003 Benchmark etabliert, R004 Pattern etabliert — volle Validierung in S04/S07)
 - Unmapped active requirements: 0
