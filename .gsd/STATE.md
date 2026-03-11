@@ -1,12 +1,12 @@
 # GSD State
 
 **Active Milestone:** M001 — OpenClaw Meta Maker
-**Active Slice:** S05 — Research Skills (nächster Slice)
-**Active Task:** — (S04 abgeschlossen, S05 noch nicht gestartet)
-**Phase:** S04 vollständig abgeschlossen — S04-SUMMARY.md + S04-UAT.md + ROADMAP [x] + REQUIREMENTS.md aktualisiert, commit erfolgt
-**Slice Branch:** gsd/M001/S04
+**Active Slice:** S06 — Automation + Analysis Skills
+**Active Task:** —
+**Phase:** S05 abgeschlossen (verify-s05.sh Exit-Code 0, UAT geschrieben, ROADMAP aktualisiert) — S06 startklar
+**Slice Branch:** gsd/M001/S05
 **Active Workspace:** C:\Dev\Openclaw_Meta_Maker
-**Next Action:** S05 starten — Research Skills erstellen (verify-s05.sh + Research/Strategy/Automation Skills)
+**Next Action:** S06 starten — Automation Skills erstellen
 **Last Updated:** 2026-03-11
 **Requirements Status:** 11 active · 9 validated (R002, R003, R005, R006, R007, R008, R010, R011 — R003 in S04) · 2 partially proven (R001, R004) · 1 deferred · 2 out of scope
 
@@ -21,6 +21,7 @@
 - [x] S02 — Souls und Identities (2026-03-11)
 - [x] S03 — Agent Layer — 16 Agenten, 148/148 Checks grün (2026-03-11)
 - [x] S04 — Growth + Content Skills — 28 Skills, 308→0 Fehler, Exit-Code 0 (2026-03-11)
+- [x] S05 — Research + Strategy Skills — 28 Skills, Exit-Code 0 beim ersten Lauf (2026-03-11)
 
 ## S04 Ergebnis
 
@@ -29,6 +30,14 @@
 - `scripts/verify-s04.sh` — Exit-Code 0, alle 4 Check-Gruppen grün (308 Baseline → 0 Fehler)
 - R003 contract-proof: 6 D006-Stichproben bestanden (elvis-viral-formula, elvis-growth-loop, elvis-niche-finder, elvis-x-thread-writer, elvis-headline-writer, elvis-content-brief)
 - Keine Phantom-Referenzen (Check [4/4] grün)
+
+## S05 Ergebnis
+
+- 14 Research Skills in `skills/research/` — alle 9 Pflichtfelder, alle D006-konform
+- 14 Strategy Skills in `skills/strategy/` — alle 9 Pflichtfelder, alle D006-konform
+- `scripts/verify-s05.sh` — Exit-Code 0 beim ersten Lauf, alle 4 Check-Gruppen grün (28/252/28/28)
+- 0 Phantom-Referenzen (Check [4/4] grün)
+- Keine Nachbesserung nötig — alle Skills aus T01–T04 sofort vollständig
 
 ## S05 Voraussetzungen
 

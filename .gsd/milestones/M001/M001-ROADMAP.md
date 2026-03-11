@@ -61,7 +61,7 @@
 - [x] **S04: Growth + Content Skills (~30 Skills)** `risk:medium` `depends:[S01]`
   > After this: ~15 Growth Skills und ~15 Content Skills sind vollständig ausgearbeitet — der größte Anwendungsbereich (X/Social Media) ist abgedeckt.
 
-- [ ] **S05: Research + Strategy Skills (~30 Skills)** `risk:medium` `depends:[S01]`
+- [x] **S05: Research + Strategy Skills (~30 Skills)** `risk:medium` `depends:[S01]`
   > After this: ~15 Research Skills und ~15 Strategy Skills sind fertig — Analyse, Marktforschung, Entscheidungsfindung und Execution Planning sind abgedeckt.
 
 - [ ] **S06: Automation + Analysis Skills (~20 Skills)** `risk:medium` `depends:[S01]`

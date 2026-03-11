@@ -12,7 +12,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Source: user
 - Primary owning slice: M001/S04 + M001/S05 + M001/S06
 - Supporting slices: M001/S01, M001/S07
-- Validation: S04 — 28/~80 Skills erstellt (Growth + Content vollständig); verify-s04.sh 28/28 Datei-Checks grün; vollständig nach S05–S08
+- Validation: S05 — 56/~80 Skills erstellt (Growth + Content + Research + Strategy vollständig); verify-s05.sh 28/28 Datei-Checks grün; vollständig nach S06–S08
 - Notes: Skills sind dedupliziert (z.B. elvis-x-hook-writer und elvis-hook-writer werden zu einem Skill zusammengeführt)
 
 ### R002 — Erweitertes Skill-Format
@@ -166,7 +166,7 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 
 | ID | Class | Status | Primary owner | Supporting | Proof |
 |---|---|---|---|---|---|
-| R001 | core-capability | active | M001/S04+S05+S06 | S01, S07 | S04 — 28/~80 Skills (Growth + Content); vollständig nach S05–S08 |
+| R001 | core-capability | active | M001/S04+S05+S06 | S01, S07 | S05 — 56/~80 Skills (Growth + Content + Research + Strategy); vollständig nach S06–S08 |
 | R002 | quality-attribute | active | M001/S01 | alle Skill-Slices | S01 — verify-s01.sh 54/54 Sektions-Checks |
 | R003 | quality-attribute | active | M001/S04 | S05, S06, S07 | S04 — contract-proof: 28 Skills × D06-konform; 6 Stichproben bestanden |
 | R004 | constraint | active | M001/S07 | S08 | S03 (Agent-Ebene) — 20/20 Safeguard-Checks; vollständige Skill-Ebene in S07 |
@@ -186,5 +186,5 @@ Dieses Dokument ist der explizite Capability-Contract für OpenClaw Meta Maker.
 - Active requirements: 11
 - Mapped to slices: 11
 - Validated: 9 (R002, R003, R005, R006, R007, R008, R010, R011 — R002/R006/R007/R010/R011 in S01, R008 in S02, R005 in S03, R003 in S04)
-- Partially proven: 2 (R001 Growth+Content fertig — vollständig nach S05–S08; R004 Agent-Ebene bewiesen — Skill-Ebene in S07)
+- Partially proven: 2 (R001 Growth+Content+Research+Strategy fertig — vollständig nach S06–S08; R004 Agent-Ebene bewiesen — Skill-Ebene in S07)
 - Unmapped active requirements: 0
