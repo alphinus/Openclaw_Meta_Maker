@@ -64,7 +64,7 @@
 - [x] **S05: Research + Strategy Skills (~30 Skills)** `risk:medium` `depends:[S01]`
   > After this: ~15 Research Skills und ~15 Strategy Skills sind fertig — Analyse, Marktforschung, Entscheidungsfindung und Execution Planning sind abgedeckt.
 
-- [ ] **S06: Automation + Analysis Skills (~20 Skills)** `risk:medium` `depends:[S01]`
+- [x] **S06: Automation + Analysis Skills (~20 Skills)** `risk:medium` `depends:[S01]`
   > After this: ~10 Automation Skills und ~10 Analysis Skills sind fertig — Workflow-Design, System-Optimierung und Performance-Analyse sind abgedeckt.
 
 - [ ] **S07: Meta-Agent System Skills (~15 Skills)** `risk:high` `depends:[S01,S03]`
