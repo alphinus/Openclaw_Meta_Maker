@@ -11,7 +11,7 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 - [x] **META-01**: User kann mit `/elvis-soul-generator` eine neue Soul-Definition generieren die dem Template entspricht
 - [x] **META-02**: User kann mit `/elvis-identity-generator` eine neue Identity-Definition generieren die dem Template entspricht
-- [ ] **META-03**: User kann mit `/elvis-agent-generator` eine neue Agent-Definition generieren die dem Template entspricht
+- [x] **META-03**: User kann mit `/elvis-agent-generator` eine neue Agent-Definition generieren die dem Template entspricht
 
 ### Meta Skills — Composition
 
@@ -22,7 +22,7 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 - [ ] **META-06**: User kann mit `/elvis-system-analyzer` das gesamte Ökosystem auf Schwächen und Lücken analysieren (Troi)
 - [ ] **META-07**: User kann mit `/elvis-library-manager` den Skill-Katalog organisieren, kategorisieren und durchsuchen (Uhura)
-- [ ] **META-08**: User kann mit `/elvis-command-router` Anfragen an den richtigen Agent + Skill-Chain routen (Picard)
+- [x] **META-08**: User kann mit `/elvis-command-router` Anfragen an den richtigen Agent + Skill-Chain routen (Picard)
 - [ ] **META-09**: User kann mit `/elvis-ecosystem-health` einen Gesundheitscheck des gesamten Systems durchführen
 
 ### Meta Skills — Erweitert
@@ -75,12 +75,12 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 |-------------|-------|--------|
 | META-01 | Phase 1 | Complete |
 | META-02 | Phase 1 | Complete |
-| META-03 | Phase 1 | Pending |
+| META-03 | Phase 1 | Complete |
 | META-04 | Phase 2 | Pending |
 | META-05 | Phase 2 | Pending |
 | META-06 | Phase 2 | Pending |
 | META-07 | Phase 2 | Pending |
-| META-08 | Phase 1 | Pending |
+| META-08 | Phase 1 | Complete |
 | META-09 | Phase 2 | Pending |
 | META-10 | Phase 2 | Pending |
 | META-11 | Phase 2 | Pending |
