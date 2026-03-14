@@ -40,16 +40,16 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 ### Commands
 
-- [ ] **CMD-01**: `/build-agent` — Routet zu Agent Creator Workflow
-- [ ] **CMD-02**: `/generate-skills` — Routet zu Skill Generator + Expander
-- [ ] **CMD-03**: `/analyze-system` — Routet zu System Analyzer
-- [ ] **CMD-04**: `/optimize-agent` — Routet zu Agent Optimizer
-- [ ] **CMD-05**: `/manage-library` — Routet zu Library Manager
-- [ ] **CMD-06**: `/expand-skills` — Routet zu Skill Expander
-- [ ] **CMD-07**: `/health-check` — Routet zu Ecosystem Health
-- [ ] **CMD-08**: `/create-soul` — Routet zu Soul Generator
-- [ ] **CMD-09**: `/create-identity` — Routet zu Identity Generator
-- [ ] **CMD-10**: `/route-command` — Meta-Router für alle Commands (Picard)
+- [x] **CMD-01**: `/build-agent` — Routet zu Agent Creator Workflow
+- [x] **CMD-02**: `/generate-skills` — Routet zu Skill Generator + Expander
+- [x] **CMD-03**: `/analyze-system` — Routet zu System Analyzer
+- [x] **CMD-04**: `/optimize-agent` — Routet zu Agent Optimizer
+- [x] **CMD-05**: `/manage-library` — Routet zu Library Manager
+- [x] **CMD-06**: `/expand-skills` — Routet zu Skill Expander
+- [x] **CMD-07**: `/health-check` — Routet zu Ecosystem Health
+- [x] **CMD-08**: `/create-soul` — Routet zu Soul Generator
+- [x] **CMD-09**: `/create-identity` — Routet zu Identity Generator
+- [x] **CMD-10**: `/route-command` — Meta-Router für alle Commands (Picard)
 
 ## v2 Requirements
 
@@ -89,16 +89,16 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | SAFE-02 | Phase 1 | Complete |
 | SAFE-03 | Phase 1 | Complete |
 | SAFE-04 | Phase 1 | Complete |
-| CMD-01 | Phase 3 | Pending |
-| CMD-02 | Phase 3 | Pending |
-| CMD-03 | Phase 3 | Pending |
-| CMD-04 | Phase 3 | Pending |
-| CMD-05 | Phase 3 | Pending |
-| CMD-06 | Phase 3 | Pending |
-| CMD-07 | Phase 3 | Pending |
-| CMD-08 | Phase 3 | Pending |
-| CMD-09 | Phase 3 | Pending |
-| CMD-10 | Phase 3 | Pending |
+| CMD-01 | Phase 3 | Complete |
+| CMD-02 | Phase 3 | Complete |
+| CMD-03 | Phase 3 | Complete |
+| CMD-04 | Phase 3 | Complete |
+| CMD-05 | Phase 3 | Complete |
+| CMD-06 | Phase 3 | Complete |
+| CMD-07 | Phase 3 | Complete |
+| CMD-08 | Phase 3 | Complete |
+| CMD-09 | Phase 3 | Complete |
+| CMD-10 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 26 total
