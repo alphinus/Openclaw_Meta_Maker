@@ -20,10 +20,10 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 ### Meta Skills — System & Autonomous
 
-- [ ] **META-06**: User kann mit `/elvis-system-analyzer` das gesamte Ökosystem auf Schwächen und Lücken analysieren (Troi)
+- [x] **META-06**: User kann mit `/elvis-system-analyzer` das gesamte Ökosystem auf Schwächen und Lücken analysieren (Troi)
 - [x] **META-07**: User kann mit `/elvis-library-manager` den Skill-Katalog organisieren, kategorisieren und durchsuchen (Uhura)
 - [x] **META-08**: User kann mit `/elvis-command-router` Anfragen an den richtigen Agent + Skill-Chain routen (Picard)
-- [ ] **META-09**: User kann mit `/elvis-ecosystem-health` einen Gesundheitscheck des gesamten Systems durchführen
+- [x] **META-09**: User kann mit `/elvis-ecosystem-health` einen Gesundheitscheck des gesamten Systems durchführen
 
 ### Meta Skills — Erweitert
 
@@ -78,10 +78,10 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | META-03 | Phase 1 | Complete |
 | META-04 | Phase 2 | Complete |
 | META-05 | Phase 2 | Complete |
-| META-06 | Phase 2 | Pending |
+| META-06 | Phase 2 | Complete |
 | META-07 | Phase 2 | Complete |
 | META-08 | Phase 1 | Complete |
-| META-09 | Phase 2 | Pending |
+| META-09 | Phase 2 | Complete |
 | META-10 | Phase 2 | Complete |
 | META-11 | Phase 2 | Pending |
 | META-12 | Phase 2 | Complete |
