@@ -23,8 +23,8 @@ Der Command-Router arbeitet nach dem Match-Clarify-Route-Pattern: Erst Anfrage g
 
 | Keyword / Anfrage-Typ | Agent | Skill-Chain |
 |---|---|---|
-| Soul erstellen, neue Soul, Soul generieren | Picard | /elvis-soul-generator |
-| Identity erstellen, neue Identity, Identity generieren | Picard | /elvis-identity-generator |
+| Soul erstellen, neue Soul, Soul generieren | Elvis | /elvis-soul-generator |
+| Identity erstellen, neue Identity, Identity generieren | Elvis | /elvis-identity-generator |
 | Agent erstellen, neuer Agent, Agent generieren | Picard | /elvis-agent-generator |
 | Skills generieren, neue Skills, Skill erstellen | Elvis | /elvis-skill-generator |
 | Agent zusammenstellen, vollstaendiger Agent, Agent Creator | Q | /elvis-agent-creator |
