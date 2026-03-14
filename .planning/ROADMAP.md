@@ -12,7 +12,7 @@ Das Projekt ist zu 81% fertig: 81 Skills, 16 Agenten, 16 Identities, 10 Souls ex
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
+- [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
 - [ ] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills
 - [ ] **Phase 3: Command Layer** - Alle 10 Command-Definitionen als Markdown-Routing-Deklarationen
 
@@ -31,20 +31,26 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans:** 2/2 plans complete
 
 Plans:
-- [ ] 01-01-PLAN.md — Soul-Generator und Identity-Generator erstellen (Wave 1)
-- [ ] 01-02-PLAN.md — Agent-Generator und Command-Router erstellen (Wave 2)
+- [x] 01-01-PLAN.md — Soul-Generator und Identity-Generator erstellen (Wave 1)
+- [x] 01-02-PLAN.md — Agent-Generator und Command-Router erstellen (Wave 2)
 
 ### Phase 2: Composition + Autonomous
 **Goal**: User kann einen kompletten Agenten in unter 2 Minuten zusammenstellen, bestehende Skills expandieren, das Ökosystem auf Lücken analysieren, und den Skill-Katalog verwalten — alle autonomen Skills mit operativ vollständigen Safeguards
 **Depends on**: Phase 1
-**Requirements**: META-04, META-05, META-06, META-07, META-09, META-10, META-11, META-12
+**Requirements**: META-04, META-05, META-06, META-07, META-09, META-10, META-12
 **Success Criteria** (what must be TRUE):
   1. User kann `/elvis-agent-creator` aufrufen und erhält in einem einzigen Workflow einen kompletten Agenten aus Soul + Identity + Agent-Definition
   2. User kann `/elvis-skill-expander` aufrufen und Borg generiert neue Skill-Varianten mit konkreten Sub-Skill-Referenzen in jedem Ausführungsschritt
   3. User kann `/elvis-system-analyzer` aufrufen und Troi liefert einen Gesundheitsbericht mit benannten Lücken und Empfehlungen
   4. User kann `/elvis-library-manager` aufrufen und der Skill-Katalog wird kategorisiert und durchsuchbar gemacht
   5. Alle autonomen Skills in dieser Phase enthalten einen Approval-Gate als numerierten Ausführungsschritt — nicht nur in Einschränkungen
-**Plans**: TBD
+**Plans:** 4 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Agent-Creator Skill erstellen (Wave 1)
+- [ ] 02-02-PLAN.md — Skill-Expander und Concept-Design erstellen (Wave 1)
+- [ ] 02-03-PLAN.md — System-Analyzer und Ecosystem-Health erstellen (Wave 1)
+- [ ] 02-04-PLAN.md — Library-Manager und Agent-Optimizer erstellen (Wave 1)
 
 ### Phase 3: Command Layer
 **Goal**: User kann alle Kern-Workflows über kurze, einprägsame Commands starten — jeder Command routet deklarativ an Agenten + Skill-Chain ohne eigene Ausführungslogik
@@ -65,5 +71,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Generators + Router | 2/2 | Complete   | 2026-03-14 |
-| 2. Composition + Autonomous | 0/TBD | Not started | - |
+| 2. Composition + Autonomous | 0/4 | Not started | - |
 | 3. Command Layer | 0/TBD | Not started | - |
