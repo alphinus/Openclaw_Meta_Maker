@@ -76,6 +76,7 @@ Interne Referenz: Der Agent-Creator folgt den Templates der Phase-1-Generatoren 
 - Input: Anforderungs-Beschreibung des gewünschten Agenten (Aufgabenbereich, Charakter-Idee, optionale Soul/Skill-Präferenzen)
 - Empfohlene Vorgänger-Skills: `/elvis-concept-design` (wenn Anforderung noch vage ist und erst ein Konzept validiert werden soll); `/elvis-skill-generator` (wenn benötigte Skills noch nicht existieren)
 - Interne Referenz (kein separater Aufruf): `templates/soul-template.md`, `templates/identity-template.md`, `templates/agent-template.md`
+- Hinweis: Der Agent-Creator implementiert die Generator-Logik für Soul, Identity und Agent intern — die Phase-1-Generatoren (elvis-soul-generator, elvis-identity-generator, elvis-agent-generator) werden nicht separat aufgerufen. Dies ist by design: Ein einziger Workflow mit einem Approval-Gate statt drei separate Skill-Aufrufe.
 
 ## Output
 
