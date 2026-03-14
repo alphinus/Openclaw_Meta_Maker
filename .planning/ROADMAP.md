@@ -13,7 +13,7 @@ Das Projekt ist zu 81% fertig: 81 Skills, 16 Agenten, 16 Identities, 10 Souls ex
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
-- [ ] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills
+- [x] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills (completed 2026-03-14)
 - [ ] **Phase 3: Command Layer** - Alle 10 Command-Definitionen als Markdown-Routing-Deklarationen
 
 ## Phase Details
@@ -44,7 +44,7 @@ Plans:
   3. User kann `/elvis-system-analyzer` aufrufen und Troi liefert einen Gesundheitsbericht mit benannten Lücken und Empfehlungen
   4. User kann `/elvis-library-manager` aufrufen und der Skill-Katalog wird kategorisiert und durchsuchbar gemacht
   5. Alle autonomen Skills in dieser Phase enthalten einen Approval-Gate als numerierten Ausführungsschritt — nicht nur in Einschränkungen
-**Plans:** 4 plans
+**Plans:** 4/4 plans complete
 
 Plans:
 - [ ] 02-01-PLAN.md — Agent-Creator Skill erstellen (Wave 1)
@@ -71,5 +71,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Generators + Router | 2/2 | Complete   | 2026-03-14 |
-| 2. Composition + Autonomous | 0/4 | Not started | - |
+| 2. Composition + Autonomous | 4/4 | Complete   | 2026-03-14 |
 | 3. Command Layer | 0/TBD | Not started | - |

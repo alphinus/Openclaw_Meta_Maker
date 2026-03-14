@@ -15,7 +15,7 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 ### Meta Skills — Composition
 
-- [ ] **META-04**: User kann mit `/elvis-agent-creator` einen kompletten Agenten aus Soul + Identity + Agent + Skills in < 2 Minuten zusammenstellen
+- [x] **META-04**: User kann mit `/elvis-agent-creator` einen kompletten Agenten aus Soul + Identity + Agent + Skills in < 2 Minuten zusammenstellen
 - [ ] **META-05**: User kann mit `/elvis-skill-expander` bestehende Skills erweitern und neue Varianten ableiten (Borg)
 
 ### Meta Skills — System & Autonomous
@@ -76,7 +76,7 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | META-01 | Phase 1 | Complete |
 | META-02 | Phase 1 | Complete |
 | META-03 | Phase 1 | Complete |
-| META-04 | Phase 2 | Pending |
+| META-04 | Phase 2 | Complete |
 | META-05 | Phase 2 | Pending |
 | META-06 | Phase 2 | Pending |
 | META-07 | Phase 2 | Pending |
