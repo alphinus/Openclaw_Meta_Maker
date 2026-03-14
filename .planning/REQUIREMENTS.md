@@ -9,8 +9,8 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 ### Meta Skills — Generatoren
 
-- [ ] **META-01**: User kann mit `/elvis-soul-generator` eine neue Soul-Definition generieren die dem Template entspricht
-- [ ] **META-02**: User kann mit `/elvis-identity-generator` eine neue Identity-Definition generieren die dem Template entspricht
+- [x] **META-01**: User kann mit `/elvis-soul-generator` eine neue Soul-Definition generieren die dem Template entspricht
+- [x] **META-02**: User kann mit `/elvis-identity-generator` eine neue Identity-Definition generieren die dem Template entspricht
 - [ ] **META-03**: User kann mit `/elvis-agent-generator` eine neue Agent-Definition generieren die dem Template entspricht
 
 ### Meta Skills — Composition
@@ -33,10 +33,10 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 ### Safeguards
 
-- [ ] **SAFE-01**: Alle autonomen Meta Skills (Q, Borg, Picard, Troi, Uhura) haben Max-Limit pro Durchlauf (≤ 10)
-- [ ] **SAFE-02**: Alle autonomen Meta Skills haben Approval-Gate als nummerierter Ausführungsschritt
-- [ ] **SAFE-03**: Alle autonomen Meta Skills haben explizite Stop-Bedingung
-- [ ] **SAFE-04**: Alle autonomen Meta Skills haben Rollback-Hinweis
+- [x] **SAFE-01**: Alle autonomen Meta Skills (Q, Borg, Picard, Troi, Uhura) haben Max-Limit pro Durchlauf (≤ 10)
+- [x] **SAFE-02**: Alle autonomen Meta Skills haben Approval-Gate als nummerierter Ausführungsschritt
+- [x] **SAFE-03**: Alle autonomen Meta Skills haben explizite Stop-Bedingung
+- [x] **SAFE-04**: Alle autonomen Meta Skills haben Rollback-Hinweis
 
 ### Commands
 
@@ -73,8 +73,8 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| META-01 | Phase 1 | Pending |
-| META-02 | Phase 1 | Pending |
+| META-01 | Phase 1 | Complete |
+| META-02 | Phase 1 | Complete |
 | META-03 | Phase 1 | Pending |
 | META-04 | Phase 2 | Pending |
 | META-05 | Phase 2 | Pending |
@@ -85,10 +85,10 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | META-10 | Phase 2 | Pending |
 | META-11 | Phase 2 | Pending |
 | META-12 | Phase 2 | Pending |
-| SAFE-01 | Phase 1 | Pending |
-| SAFE-02 | Phase 1 | Pending |
-| SAFE-03 | Phase 1 | Pending |
-| SAFE-04 | Phase 1 | Pending |
+| SAFE-01 | Phase 1 | Complete |
+| SAFE-02 | Phase 1 | Complete |
+| SAFE-03 | Phase 1 | Complete |
+| SAFE-04 | Phase 1 | Complete |
 | CMD-01 | Phase 3 | Pending |
 | CMD-02 | Phase 3 | Pending |
 | CMD-03 | Phase 3 | Pending |
