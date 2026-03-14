@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
 - [x] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills (completed 2026-03-14)
 - [x] **Phase 3: Command Layer** - Alle 10 Command-Definitionen als Markdown-Routing-Deklarationen (completed 2026-03-14)
-- [ ] **Phase 4: Integration Fixes + Tech Debt** - Agent-Zuweisungen korrigieren, Soul-Sektionsnamen fixen, Dokumentationslücken schliessen
+- [x] **Phase 4: Integration Fixes + Tech Debt** - Agent-Zuweisungen korrigieren, Soul-Sektionsnamen fixen, Dokumentationslücken schliessen (completed 2026-03-14)
 
 ## Phase Details
 
@@ -77,7 +77,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Generators + Router | 2/2 | Complete   | 2026-03-14 |
 | 2. Composition + Autonomous | 4/4 | Complete   | 2026-03-14 |
 | 3. Command Layer | 1/1 | Complete   | 2026-03-14 |
-| 4. Integration Fixes + Tech Debt | 0/2 | Not started | - |
+| 4. Integration Fixes + Tech Debt | 2/2 | Complete   | 2026-03-14 |
 
 ### Phase 4: Integration Fixes + Tech Debt
 **Goal**: Alle Wiring-Inkonsistenzen aus dem Milestone-Audit bereinigen — Agent-Zuweisungen vereinheitlichen, fehlerhafte Sektionsnamen korrigieren, Dokumentationslücken schliessen
@@ -91,7 +91,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
   4. elvis-agent-optimizer Step 2c ist konsistent mit Scope-Beschränkung auf agent/*.md
   5. Dedizierter Command für /elvis-concept-design existiert
   6. /generate-skills Dual-Agent-Routing ist klar dokumentiert
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 04-01-PLAN.md — Router-Tabelle + Command-Layer bereinigen (Wave 1)
