@@ -14,4 +14,4 @@ Elvis (fuer /elvis-skill-generator) / Borg (fuer /elvis-skill-expander)
 - /elvis-skill-expander
 
 ## Hinweis
-Neue Skills via Elvis (/elvis-skill-generator), Varianten bestehender Skills via Borg (/elvis-skill-expander). Der Command-Router hilft bei der Auswahl wenn unklar welche Route passt.
+Neue Skills via Elvis (/elvis-skill-generator), Varianten bestehender Skills via Borg (/elvis-skill-expander). Der Command-Router hilft bei der Auswahl wenn unklar welche Route passt. Bei Unsicherheit: `/generate-skills` ist der Sammel-Einstiegspunkt — der Router zeigt beide Optionen separat zur gezielten Auswahl.
