@@ -13,7 +13,7 @@ Das Projekt ist zu 81% fertig: 81 Skills, 16 Agenten, 16 Identities, 10 Souls ex
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
-- [x] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills (completed 2026-03-14)
+- [x] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills (completed 2026-03-14)
 - [ ] **Phase 3: Command Layer** - Alle 10 Command-Definitionen als Markdown-Routing-Deklarationen
 
 ## Phase Details
@@ -61,7 +61,10 @@ Plans:
   2. User kann `/generate-skills`, `/expand-skills`, `/create-soul`, `/create-identity` aufrufen und landet jeweils beim richtigen Skill
   3. User kann `/analyze-system`, `/health-check`, `/manage-library`, `/optimize-agent` aufrufen und landet jeweils beim richtigen autonomen Skill
   4. Kein Command-File enthält Ausführungslogik — jedes File ist eine reine Routing-Deklaration (Agent + Skill-Chain)
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 03-01-PLAN.md — 10 Command-Dateien erstellen + Router-Tabelle erweitern (Wave 1)
 
 ## Progress
 
@@ -72,4 +75,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Generators + Router | 2/2 | Complete   | 2026-03-14 |
 | 2. Composition + Autonomous | 4/4 | Complete   | 2026-03-14 |
-| 3. Command Layer | 0/TBD | Not started | - |
+| 3. Command Layer | 0/1 | Not started | - |
