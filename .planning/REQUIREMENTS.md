@@ -16,20 +16,20 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 ### Meta Skills — Composition
 
 - [x] **META-04**: User kann mit `/elvis-agent-creator` einen kompletten Agenten aus Soul + Identity + Agent + Skills in < 2 Minuten zusammenstellen
-- [ ] **META-05**: User kann mit `/elvis-skill-expander` bestehende Skills erweitern und neue Varianten ableiten (Borg)
+- [x] **META-05**: User kann mit `/elvis-skill-expander` bestehende Skills erweitern und neue Varianten ableiten (Borg)
 
 ### Meta Skills — System & Autonomous
 
 - [ ] **META-06**: User kann mit `/elvis-system-analyzer` das gesamte Ökosystem auf Schwächen und Lücken analysieren (Troi)
-- [ ] **META-07**: User kann mit `/elvis-library-manager` den Skill-Katalog organisieren, kategorisieren und durchsuchen (Uhura)
+- [x] **META-07**: User kann mit `/elvis-library-manager` den Skill-Katalog organisieren, kategorisieren und durchsuchen (Uhura)
 - [x] **META-08**: User kann mit `/elvis-command-router` Anfragen an den richtigen Agent + Skill-Chain routen (Picard)
 - [ ] **META-09**: User kann mit `/elvis-ecosystem-health` einen Gesundheitscheck des gesamten Systems durchführen
 
 ### Meta Skills — Erweitert
 
-- [ ] **META-10**: User kann mit `/elvis-agent-optimizer` bestehende Agenten-Definitionen verbessern und optimieren
+- [x] **META-10**: User kann mit `/elvis-agent-optimizer` bestehende Agenten-Definitionen verbessern und optimieren
 - [ ] **META-11**: User kann mit `/elvis-pattern-assimilation` Patterns aus externen Quellen ins Ökosystem integrieren (Borg)
-- [ ] **META-12**: User kann mit `/elvis-concept-design` neue Agent-Konzepte entwerfen und validieren (Q)
+- [x] **META-12**: User kann mit `/elvis-concept-design` neue Agent-Konzepte entwerfen und validieren (Q)
 
 ### Safeguards
 
@@ -77,14 +77,14 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | META-02 | Phase 1 | Complete |
 | META-03 | Phase 1 | Complete |
 | META-04 | Phase 2 | Complete |
-| META-05 | Phase 2 | Pending |
+| META-05 | Phase 2 | Complete |
 | META-06 | Phase 2 | Pending |
-| META-07 | Phase 2 | Pending |
+| META-07 | Phase 2 | Complete |
 | META-08 | Phase 1 | Complete |
 | META-09 | Phase 2 | Pending |
-| META-10 | Phase 2 | Pending |
+| META-10 | Phase 2 | Complete |
 | META-11 | Phase 2 | Pending |
-| META-12 | Phase 2 | Pending |
+| META-12 | Phase 2 | Complete |
 | SAFE-01 | Phase 1 | Complete |
 | SAFE-02 | Phase 1 | Complete |
 | SAFE-03 | Phase 1 | Complete |
