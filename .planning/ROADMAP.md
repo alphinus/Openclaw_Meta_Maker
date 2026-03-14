@@ -28,7 +28,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. User kann `/elvis-agent-generator` aufrufen und erhält eine vollständige Agent-Definition die dem Template entspricht
   4. User kann `/elvis-command-router` aufrufen und wird an den richtigen Agenten + Skill-Chain geleitet
   5. Jeder neue Skill in dieser Phase hat konkrete Zahlen in Max-Limit (≤ 10), einen benannten Halt-Punkt im Approval-Gate, zwei explizite Stop-Bedingungen und eine benannte Rollback-Aktion
-**Plans**: TBD
+**Plans:** 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Soul-Generator und Identity-Generator erstellen (Wave 1)
+- [ ] 01-02-PLAN.md — Agent-Generator und Command-Router erstellen (Wave 2)
 
 ### Phase 2: Composition + Autonomous
 **Goal**: User kann einen kompletten Agenten in unter 2 Minuten zusammenstellen, bestehende Skills expandieren, das Ökosystem auf Lücken analysieren, und den Skill-Katalog verwalten — alle autonomen Skills mit operativ vollständigen Safeguards
@@ -60,6 +64,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Generators + Router | 0/TBD | Not started | - |
+| 1. Generators + Router | 0/2 | Planning complete | - |
 | 2. Composition + Autonomous | 0/TBD | Not started | - |
 | 3. Command Layer | 0/TBD | Not started | - |
