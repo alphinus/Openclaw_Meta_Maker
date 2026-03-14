@@ -85,10 +85,10 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 | META-10 | Phase 2 | Pending |
 | META-11 | Phase 2 | Pending |
 | META-12 | Phase 2 | Pending |
-| SAFE-01 | Phase 1+2 | Pending |
-| SAFE-02 | Phase 1+2 | Pending |
-| SAFE-03 | Phase 1+2 | Pending |
-| SAFE-04 | Phase 1+2 | Pending |
+| SAFE-01 | Phase 1 | Pending |
+| SAFE-02 | Phase 1 | Pending |
+| SAFE-03 | Phase 1 | Pending |
+| SAFE-04 | Phase 1 | Pending |
 | CMD-01 | Phase 3 | Pending |
 | CMD-02 | Phase 3 | Pending |
 | CMD-03 | Phase 3 | Pending |
@@ -105,6 +105,8 @@ Requirements für die Fertigstellung. Jedes mappt auf Roadmap-Phasen.
 - Mapped to phases: 26
 - Unmapped: 0 ✓
 
+**Note on SAFE-01..04:** These safeguards apply to autonomous skills across Phase 1 and 2. Assigned to Phase 1 as the first instantiation point. Phase 2 success criteria verify the pattern is correctly maintained in composition and autonomous skills.
+
 ---
 *Requirements defined: 2026-03-14*
-*Last updated: 2026-03-14 after initial definition*
+*Last updated: 2026-03-14 after roadmap creation*
