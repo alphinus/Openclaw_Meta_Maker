@@ -3,11 +3,27 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
+stopped_at: Completed 01-generators-router 01-02-PLAN.md
+last_updated: "2026-03-14T17:57:13.555Z"
+last_activity: 2026-03-14 — Roadmap created, project initialized
+progress:
+  total_phases: 3
+  completed_phases: 1
+  total_plans: 2
+  completed_plans: 2
+  percent: 100
+---
+
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: planning
 stopped_at: Completed 01-generators-router 01-01-PLAN.md
 last_updated: "2026-03-14T17:50:45.633Z"
 last_activity: 2026-03-14 — Roadmap created, project initialized
 progress:
-  total_phases: 3
+  [██████████] 100%
   completed_phases: 0
   total_plans: 2
   completed_plans: 1
@@ -51,6 +67,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-generators-router P01 | 12 | 2 tasks | 2 files |
+| Phase 01-generators-router P02 | 3 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -65,6 +82,9 @@ Recent decisions affecting current work:
 - [Phase 01-generators-router]: Max-Limit 1 für Soul/Identity-Generatoren: inhaltliche Dichte erfordert Einzelbehandlung, Batching würde Qualitätsverlust bedeuten
 - [Phase 01-generators-router]: Approval-Gate als nummerierter Ausführungsschritt mit explizitem Halt-Punkt: verhindert LLM-Interpretation als passiven Hinweis
 - [Phase 01-generators-router]: Identity-Agent-Trennung als aktive Prüfung in Schritt 1 des Identity-Generators
+- [Phase 01-generators-router]: Max-Limit = 1 für Agent-Generator: Querverweisvalidierung pro Agent erfordert Einzelbehandlung
+- [Phase 01-generators-router]: Match-Clarify-Route für Command-Router statt Plan-Approve-Execute: Router generiert nichts, spiegelt nur die Routing-Tabelle
+- [Phase 01-generators-router]: Querverweisvalidierung als separater Schritt 2 vor Approval-Gate: ungültige Referenzen werden abgefangen bevor Operator bestätigt
 
 ### Pending Todos
 
@@ -77,6 +97,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T17:50:45.623Z
-Stopped at: Completed 01-generators-router 01-01-PLAN.md
+Last session: 2026-03-14T17:57:13.549Z
+Stopped at: Completed 01-generators-router 01-02-PLAN.md
 Resume file: None
