@@ -15,6 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Generators + Router** - Soul-, Identity-, Agent-Generatoren und Command-Router mit Safeguard-Quartet (completed 2026-03-14)
 - [x] **Phase 2: Composition + Autonomous** - Agent-Creator, Skill-Expander, System-Analyzer, Library-Manager und erweiterte Meta-Skills (completed 2026-03-14)
 - [x] **Phase 3: Command Layer** - Alle 10 Command-Definitionen als Markdown-Routing-Deklarationen (completed 2026-03-14)
+- [ ] **Phase 4: Integration Fixes + Tech Debt** - Agent-Zuweisungen korrigieren, Soul-Sektionsnamen fixen, Dokumentationslücken schliessen
 
 ## Phase Details
 
@@ -69,10 +70,28 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
+Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Generators + Router | 2/2 | Complete   | 2026-03-14 |
 | 2. Composition + Autonomous | 4/4 | Complete   | 2026-03-14 |
 | 3. Command Layer | 1/1 | Complete   | 2026-03-14 |
+| 4. Integration Fixes + Tech Debt | 0/0 | Not started | - |
+
+### Phase 4: Integration Fixes + Tech Debt
+**Goal**: Alle Wiring-Inkonsistenzen aus dem Milestone-Audit bereinigen — Agent-Zuweisungen vereinheitlichen, fehlerhafte Sektionsnamen korrigieren, Dokumentationslücken schliessen
+**Depends on**: Phase 3
+**Requirements**: (gap closure — no new requirements)
+**Gap Closure**: Closes INT-01, INT-02 and 5 tech debt items from v1.0-MILESTONE-AUDIT.md
+**Success Criteria** (what must be TRUE):
+  1. Agent-Zuweisung für create-soul und create-identity ist konsistent zwischen Commands und Router-Tabelle
+  2. elvis-ecosystem-health prüft korrekte Soul-Sektionsnamen (Philosophie, Core Values, Operating Principles, Success Metrics, Geeignet für)
+  3. elvis-agent-creator dokumentiert explizit dass Generator-Logik intern implementiert ist (kein separater Skill-Aufruf)
+  4. elvis-agent-optimizer Step 2c ist konsistent mit Scope-Beschränkung auf agent/*.md
+  5. Dedizierter Command für /elvis-concept-design existiert
+  6. /generate-skills Dual-Agent-Routing ist klar dokumentiert
+**Plans:** 0 plans
+
+Plans:
+(to be planned)
